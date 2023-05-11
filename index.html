@@ -29,7 +29,10 @@
       src="https://kit.fontawesome.com/b8332e4c7c.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Style -->
+    <!--Style-->
+    <link rel="preconnect" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="build/css/app.css">
     <link rel="stylesheet" href="build/css/app.css" />
   </head>
   <body>
@@ -334,22 +337,112 @@
       <ul class="galeria-imagenes"></ul>
     </section>
 
-    <!-- <section class="section-container">
-      <div>
-        <h2 class="spanish display-block">Proceso de exportación</h2>
-        <h2 class="english display-none">Export process</h2>
+    <section id="tracking">
+      <h2 class="spanish display-block">Rastree su carga</h2>
+      <h2 class="english display-none">Track your shipment</h2>
+      <div class="products_body carousel-brands">
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.dhl.com/mx-en/home/tracking.html" tabindex="-1">
+              <img class="brand" src="build/img/tracking/dhl.webp" alt="nexus">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>DHL</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://lufthansa-cargo.com/eservices/etracking" tabindex="-1">
+              <img class="brand" src="build/img/tracking/lufthansa.webp" alt="IDEAL">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>LUFTHANSA</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.qrcargo.com/s/track-your-shipment" tabindex="-1">
+              <img class="brand" src="build/img/tracking/qatar.webp" alt="PWC">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>QATAR</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.fedex.com/en-mx/tracking.html" tabindex="-1">
+              <img class="brand" src="build/img/tracking/fedex.webp" alt="Advanced Fertility Center">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>FEDEX</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.iagcargo.com/es/home/" tabindex="-1">
+              <img class="brand" src="build/img/tracking/iberia.webp" alt="MAERSK">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>IBERIA</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://amcargo.aeromexico.com/rastrear" tabindex="-1">
+              <img class="brand" src="build/img/tracking/aeromexico.webp" alt="ATVM">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>AEROMEXICO</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.afklcargo.com/mycargo/shipment/singlesearch" tabindex="-1">
+              <img class="brand" src="build/img/tracking/klm_airfrance.webp" alt="Waspert">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>KLM/AIR FRANCE</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.cathaycargo.com/en-us/manageyourshipment/trackyourshipment.aspx?cxsource=TOP-NAV_1_1_1" tabindex="-1">
+              <img class="brand" src="build/img/tracking/cathay.webp" alt="Banco Azteca">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>CATHAY</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.skycargo.com/shipping-services/track-shipments/" tabindex="-1">
+              <img class="brand" src="build/img/tracking/emirates.webp" alt="UNAM">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>EMIRATES</h2>
+          </div>
+        </div>
+        <div class="brand-wrapper" tabindex="-1">
+          <div class="brand-container">
+            <a href="https://www.turkishcargo.com.tr/en/online-services/shipment-tracking" tabindex="-1">
+              <img class="brand" src="build/img/tracking/turkish.webp" alt="AMERIMED Cancún">
+            </a>
+          </div>
+          <div class="brand-description">
+            <h2>TURKISH</h2>
+          </div>
+        </div>
       </div>
-      <div class="video">
-        <iframe
-          width="420"
-          height="315"
-          src="https://www.youtube.com/embed/rJ7HIf-cOpo?controls=2"
-          frameborder="0"
-          allowfullscreen
-        >
-        </iframe>
-      </div>
-    </section> -->
+    </section>
 
     <section class="section-container us" id="us">
       <h2 class="spanish display-block">Nosotros</h2>
@@ -824,5 +917,18 @@
       integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
       crossorigin=""
     ></script>
+    <!-- Slick carousel -->
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="build/js/carousel.js"></script>
+
   </body>
 </html>
